@@ -366,7 +366,7 @@ section
     width: 100%;
     height: 675px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 450px 450px 450px;
     column-gap: 30px;
     margin: 100px 0;
 }
@@ -389,19 +389,22 @@ section
 .sub-about:last-child>div p:first-child
 {
     white-space: nowrap;
+    height: 140px;
+    width: 368px;
+    line-height: 70px;
 }
 
 .sub-about:first-child div
 {
     border-radius: 20px;
-    background: url(/img/img-bear.png), lightgray 50% / cover no-repeat;
+    background: url(img/img-bear.png), lightgray 50% / cover no-repeat;
     background-size: 100% 100%;
 }
 
 .sub-about:nth-child(2)
 {
     border-radius: 20px;
-    background: url(/img/img-child.png), lightgray 50% / cover no-repeat;
+    background: url(img/img-child.png), lightgray 50% / cover no-repeat;
     background-size: 100% 100%; 
 }
 
@@ -410,7 +413,7 @@ section
     text-align: center;
     border-radius: 20px;
     background: #FDF4F7;
-    padding: 88px 18px;
+    padding: 88px 20px;
     box-sizing: border-box;
 }
 
@@ -423,6 +426,7 @@ section
 
 .sub-about:last-child button
 {
+    height: 50px;
     padding: 14px 30px;
     border-radius: 10px;
     border: none;
@@ -446,22 +450,22 @@ section
 
 .bg-img1
 {
-    background: url(/img/img-people1.png), lightgray 50% / cover no-repeat;
+    background: url(img/img-people1.png), lightgray 50% / cover no-repeat;
 }
 
 .bg-img2
 {
-    background: url(/img/img-people2.png), lightgray 50% / cover no-repeat;
+    background: url(img/img-people2.png), lightgray 50% / cover no-repeat;
 }
 
 .bg-img3
 {
-    background: url(/img/img-people3.png), lightgray 50% / cover no-repeat;
+    background: url(img/img-people3.png), lightgray 50% / cover no-repeat;
 }
 
 .bg-img4
 {
-    background: url(/img/img-people4.png), lightgray 50% / cover no-repeat;
+    background: url(img/img-people4.png), lightgray 50% / cover no-repeat;
 }
 
 .our-team>div>div p:nth-child(3)
