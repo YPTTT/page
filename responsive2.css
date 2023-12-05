@@ -94,7 +94,7 @@
 
     .sub-about:last-child div {
         height: auto;
-        padding: 20px 30px;
+        padding: 30px 20px;
     }
 
     .sub-about:last-child div p:first-child {
@@ -162,5 +162,15 @@
     .footer-bottom
     {
         height: 62px;
+    }
+
+    .sub-about:last-child>div p:first-child
+    {
+        line-height: 47px;
+    }
+
+    .sub-about:last-child>div p:nth-child(2)
+    {
+        padding: 0;
     }
 }
