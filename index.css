@@ -348,6 +348,7 @@ section
 .section-proud>div>div
 {
     height: auto;
+    border-radius: 10px;
 }
 
 .section-proud>div>div p:nth-child(2)
@@ -358,6 +359,7 @@ section
 .our-team>div>div
 {
     height: 390px;
+    border-radius: 10px;
 }
 
 .section-proud>div>div, .our-team>div>div
